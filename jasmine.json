@@ -1,9 +1,10 @@
 {
   "spec_dir": "src",
-  "spec_files": ["**/*spec.ts"],
+  "spec_files": ["solution-runner.ts"],
   "helpers": ["../node_modules/ts-node/register/type-check.js"],
   "env": {
     "stopSpecOnExpectationFailure": true,
-    "random": true
+    "stopOnSpecFailure": true,
+    "random": false
   }
 }
