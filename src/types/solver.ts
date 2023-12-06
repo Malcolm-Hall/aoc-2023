@@ -13,6 +13,7 @@ type Part = {
     expected?: string;
     examples: Example[];
     solver?: Solver;
+    skip?: boolean;
 }
 
 type Example = {
